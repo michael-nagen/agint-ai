@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>חברותא | לומדים באמת עם AI</title>
+  <meta name="description" content="חברותא הוא אייג׳נט למידה שמדמה חבר לימודי ועוזר לך לעבד ידע, להבין לעומק ולתרגל את החומר." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="#top" aria-label="חברותא">
+        <span class="logo-mark">ח</span>
+        <span>חברותא</span>
+      </a>
+      <div class="nav-links">
+        <a href="#how">איך זה עובד</a>
+        <a href="#benefits">למה זה עוזר</a>
+        <a class="nav-cta" href="#join">הצטרפות לפיילוט</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">אייג׳נט למידה שמרגיש כמו חבר לימודי</p>
+        <h1>לא רק לקבל ידע — להבין אותו באמת.</h1>
+        <p class="hero-text">
+          חברותא הוא חבר לימודי מבוסס AI שעוזר לך לעבד חומר, להסביר במילים שלך,
+          לזהות פערים בהבנה ולהתקדם בביטחון. מושלם כהשלמה ללמידה עם Maestro.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#join">אני רוצה להצטרף לפיילוט</a>
+          <a class="button secondary" href="#how">לראות איך זה עובד</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="הדגמת שיחה עם חברותא">
+        <div class="chat-bubble ai">בוא נבדוק שהבנת באמת. איך היית מסביר את הנושא במילים שלך?</div>
+        <div class="chat-bubble user">אני חושב שהבנתי, אבל קשה לי להסביר את זה בקצרה.</div>
+        <div class="chat-bubble ai">מעולה. נפרק את זה יחד לשאלה, דוגמה, והסבר פשוט.</div>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">איך זה עובד</p>
+        <h2>למידה פעילה, לא צפייה פסיבית.</h2>
+      </div>
+      <div class="steps">
+        <article class="step">
+          <span>1</span>
+          <h3>מביאים חומר לימודי</h3>
+          <p>מעלים סיכום, נושא, שאלה או חומר שלמדת ב־Maestro.</p>
+        </article>
+        <article class="step">
+          <span>2</span>
+          <h3>חברותא שואל אותך</h3>
+          <p>האייג׳נט מבקש ממך להסביר, לנמק ולתת דוגמאות.</p>
+        </article>
+        <article class="step">
+          <span>3</span>
+          <h3>מזהים פערים</h3>
+          <p>במקום להמשיך הלאה מהר מדי, הוא עוצר איפה שההבנה לא שלמה.</p>
+        </article>
+        <article class="step">
+          <span>4</span>
+          <h3>מתרגלים עד שזה יושב</h3>
+          <p>מקבלים שאלות המשך, הסברים מותאמים וסיכום ברור.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="benefits" class="section split">
+      <div>
+        <p class="eyebrow">למה זה חשוב</p>
+        <h2>כי הבנה אמיתית נוצרת בשיחה.</h2>
+      </div>
+      <div class="benefits-list">
+        <div class="benefit">עוזר להפוך חומר תיאורטי להבנה שימושית.</div>
+        <div class="benefit">מדמה למידה עם חבר שמאתגר אותך בצורה נעימה.</div>
+        <div class="benefit">מתאים לחזרה לפני מבחן, פרויקט או משימה.</div>
+        <div class="benefit">משלים את Maestro בלמידה אישית ואקטיבית.</div>
+      </div>
+    </section>
+
+    <section id="join" class="section signup-section">
+      <div class="signup-card">
+        <div>
+          <p class="eyebrow">גישה מוקדמת</p>
+          <h2>רוצה להיות מהראשונים שמנסים את חברותא?</h2>
+          <p>השאירו מייל ונעדכן כשהפיילוט נפתח.</p>
+        </div>
+        <form id="signupForm" class="signup-form">
+          <label for="email">כתובת מייל</label>
+          <div class="form-row">
+            <input id="email" name="email" type="email" placeholder="your@email.com" required />
+            <button type="submit">הצטרפות</button>
+          </div>
+          <p id="formMessage" class="form-message" role="status"></p>
+          <button type="button" id="downloadCsv" class="download-button">הורדת רשימת מיילים לאקסל</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 חברותא. לומדים ביחד, מבינים לעומק.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
